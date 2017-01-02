@@ -107,23 +107,28 @@ var ABILITIES_XY = ABILITIES_BW.concat([
 ]);
 
 var ABILITIES_SM = ABILITIES_XY.concat([
-    'Electric Surge',
-    'Psychic Surge',
-    'Grassy Surge',
-    'Misty Surge',
-    'Merciless',
-    'Stakeout',
-    'Water Bubble',
-    'Steelworker',
-    'Liquid Voice',
-    'Galvanize',
-    'Fluffy',
-    'RKS System',
-    'Shadow Shield',
-    'Prism Armor',
-    'Full Metal Body',
-    'Shadow Shield'
-   // 'Battery'
+    'Amplifier',
+	'Athenian',
+	'Castle Moat',
+	'Ethereal Shroud',
+	'Foundry',
+	'Heliophobia',
+	'Hubris',
+	'Ice Cleats',
+	'Irrelephant',
+	'Noctem',
+	'Pendulum',
+	'Prism Guard',
+	'Protean Maxima',
+	'Psycho Call',
+	'Regurgitation',
+	'Shadow Call',
+	'Shadow Dance',
+	'Spectral Jaws',
+	'Speed Swap',
+	'Spirit Call',
+	'Venomous',
+	'Winter Joy'
 ]);
 
 ABILITIES_XY.splice(ABILITIES_XY.indexOf('Lightningrod'), 1, 'Lightning Rod');
