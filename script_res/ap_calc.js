@@ -1,6 +1,6 @@
 // input field validation
 var bounds = {
-    "level":[0,100],
+    "level":[0,120],
     "base":[1,255],
     "evs":[0,252],
     "ivs":[0,31],
@@ -799,10 +799,10 @@ $(".gen").change(function () {
             break;
         case 7:
             pokedex = POKEDEX_SM;
-            setdex = SETDEX_SM;
+            setdex = SETDEX_XY;
             typeChart = TYPE_CHART_XY;
-            moves = MOVES_SM;
-            items = ITEMS_SM;
+            moves = MOVES_XY;
+            items = ITEMS_XY;
             abilities = ABILITIES_SM;
             STATS = STATS_GSC;
             calculateAllMoves = CALCULATE_ALL_MOVES_BW;
